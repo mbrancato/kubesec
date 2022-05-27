@@ -10,10 +10,6 @@ import (
 	"strings"
 )
 
-func init() {
-	complete.LastArgBreaks = `"'@><=;|&(:`
-}
-
 type Completion struct{}
 
 func (c *Completion) GenBashCompletion(w io.Writer) error {
