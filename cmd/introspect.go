@@ -3,7 +3,7 @@ package cmd
 import (
 	"errors"
 	"fmt"
-	"github.com/shyiko/kubesec/gpg"
+	"github.com/mbrancato/kubesec/gpg"
 	"strings"
 )
 
